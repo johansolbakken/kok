@@ -1,5 +1,5 @@
 echo "Building kok"
-g++ kok.cpp -o kok
+make
 echo "Installing kok"
 mv kok /opt/homebrew/bin/kok
 echo "Done"
